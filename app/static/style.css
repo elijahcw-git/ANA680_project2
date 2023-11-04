@@ -1,0 +1,76 @@
+/* style.css */
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    max-width: 700px; /* Adjust width as necessary */
+    margin: 50px auto; /* This centers the container */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+    color: #5d3fd3;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    width: 600px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 175px;
+    padding: 15px;
+    border: none;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #5d3fd3;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #4c2fbf;
+}
+
+.prediction {
+    margin-top: 50px;
+    padding: 15px;
+    background-color: #e1d5f9;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#btnContainer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#ribbon {
+    height: 30px;
+    width: 30px;
+    padding-right: 15px;
+}
+
+strong {
+    font-weight: 600;
+}
