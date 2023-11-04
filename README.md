@@ -27,6 +27,4 @@ The model was developed using the following tools and libraries:
 
 ## Model Training
 
-## Model Training
-
 The Naive Bayes model was trained on the Breast Cancer Wisconsin (Original) Dataset using `scikit-learn`. The dataset was processed and split into training and test sets. The features selected for the model were determined by their correlation with the class label, ensuring the most relevant predictors were used.
