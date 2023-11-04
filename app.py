@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import pickle
 
 app = Flask(__name__)
-
+app.debug = True
 with open('nb_model.pkl', 'rb') as file:
     model = pickle.load(file)
 
@@ -20,3 +20,4 @@ def home():
 if __name__ == '__main__':
     app.run(debug=True)
 
+s
